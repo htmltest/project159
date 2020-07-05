@@ -23,10 +23,10 @@
     .stream-counter-item-text {font-size:16px; line-height:24px}
 }
 
-.stream-video {display:none; margin:160px 0 97px 0}
+.stream-video {display:none; margin:160px 0 97px 0; position:relative; z-index:102}
 .stream-video-title {font-weight:900; font-size:66px; line-height:66px; color:#ff2f66}
 .stream-video-subtitle {margin:20px 0 0 0; font-weight:900; font-size:50px; line-height:50px; color:#000}
-.stream-video-player {margin:73px 0 0 0; background:#000; position:relative; height:958px}
+.stream-video-player {margin:73px 0 0 0; background:#000; position:relative; height:100vh}
 .stream-video-player iframe {position:absolute; left:0; top:0; width:100%; height:100%}
 
 @media screen and (max-width:1159px) {

@@ -115,6 +115,7 @@ $(document).ready(function() {
                 window.clearInterval(streamTimer);
                 streamTimer = null;
                 $('.stream-counter').hide();
+                $('.stream-video-player').html('<iframe width="560" height="315" src="' + $('.stream-video-player').attr('data-link') + '" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
                 $('.stream-video').show();
             }
         }
