@@ -1,0 +1,42 @@
+.stream-counter {background:#25176f; padding:160px 0 170px 0; margin:-40px 0 97px 0}
+.stream-counter-title {font-weight:900; font-size:66px; line-height:66px; color:#ff2f66}
+.stream-counter-subtitle {margin:20px 0 0 0; font-weight:900; font-size:50px; line-height:50px; color:#fff}
+.stream-counter-container {margin:87px 0 0 0; color:#fff}
+.stream-counter-container::after {content:""; display:block; clear:both}
+.stream-counter-item {float:left}
+.stream-counter-item-value {font-weight:900; font-size:120px; line-height:120px}
+.stream-counter-item-text {margin:19px 0 0 0; font-weight:300; font-size:40px; line-height:40px}
+
+@media screen and (max-width:1159px) {
+    .stream-counter {padding:50px 0 85px 0; margin:-40px 0 48px 0}
+    .stream-counter-title {font-size:40px; line-height:48px}
+    .stream-counter-subtitle {margin:9px 0 0 0; font-size:30px; line-height:36px}
+    .stream-counter-container {margin:52px 0 0 0; color:#fff}
+    .stream-counter-item-value {font-size:55px; line-height:55px}
+    .stream-counter-item-text {margin:10px 0 0 0; font-size:20px; line-height:20px}
+}
+
+@media screen and (max-width:479px) {
+    .stream-counter-title {font-size:30px; line-height:36px}
+    .stream-counter-subtitle {font-size:20px; line-height:24px}
+    .stream-counter-item-value {font-size:30px; line-height:36px}
+    .stream-counter-item-text {font-size:16px; line-height:24px}
+}
+
+.stream-video {display:none; margin:160px 0 97px 0}
+.stream-video-title {font-weight:900; font-size:66px; line-height:66px; color:#ff2f66}
+.stream-video-subtitle {margin:20px 0 0 0; font-weight:900; font-size:50px; line-height:50px; color:#000}
+.stream-video-player {margin:73px 0 0 0; background:#000; position:relative; height:958px}
+.stream-video-player iframe {position:absolute; left:0; top:0; width:100%; height:100%}
+
+@media screen and (max-width:1159px) {
+    .stream-video {display:none; margin:50px 0 48px 0}
+    .stream-video-title {font-size:40px; line-height:48px}
+    .stream-video-subtitle {margin:9px 0 0 0; font-size:30px; line-height:36px}
+    .stream-video-player {margin:38px 0 0 0; height:302px}
+}
+
+@media screen and (max-width:479px) {
+    .stream-video-title {font-size:30px; line-height:36px}
+    .stream-video-subtitle {font-size:20px; line-height:24px}
+}

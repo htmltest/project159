@@ -1,0 +1,10 @@
+@font-face {
+	font-family: GraphikLC;
+	src: url(../fonts/Graphik-LC-Black.woff2) format("woff2");
+	font-weight: 900
+}
+@font-face {
+	font-family: GraphikLC;
+	src: url(../fonts/Graphik-LC-Regular.woff2) format("woff2"), url(../fonts/Graphik-LC-Regular.woff) format("woff");
+	font-weight: 300
+}
